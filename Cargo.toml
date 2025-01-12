@@ -1,6 +1,6 @@
 [package]
 name = "tree-sitter-show-ast"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["cncsmonster <cncsmonster@163.com>"]
 description = "A tool to show tree-sitter ast of source code"
