@@ -31,7 +31,7 @@ fn main() -> anyhow::Result<()> {
 }
 
 pub fn show_ast(parser: &mut Parser, file: &Path) -> anyhow::Result<()> {
-    let source_code = fs::read_to_string(&file).expect("Unable to read file");
+    let source_code = fs::read_to_string(file).expect("Unable to read file");
 
     let tree = parser.parse(&source_code, None).unwrap();
 
